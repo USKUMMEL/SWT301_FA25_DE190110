@@ -1,0 +1,13 @@
+[2025-10-06 16:32:34] Function=registerAccount | username=john | password=short | email=john@mail.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username= | password=validPass123 | email=mail@test.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=john | password=password123 | email=johnmail.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=isValidEmail | username=testexample.com | password=N/A | email=N/A | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=john123 | password=password123 | email=john@mail.com | expected=true | result=true | PASS
+[2025-10-06 16:32:34] Function=isValidEmail | username=test@example.com | password=N/A | email=N/A | expected=true | result=true | PASS
+[2025-10-06 16:32:34] Function=isValidEmail | username=null | password=N/A | email=N/A | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=john123 | password=pass123 | email=john@example.com | expected=true | result=true | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=null | password=pass123 | email=john@example.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=alice | password=short | email=alice@mail.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=bob123 | password=password | email=bobmail.com | expected=false | result=false | PASS
+[2025-10-06 16:32:34] Function=registerAccount | username=carol | password=password | email=carol@domain.com | expected=true | result=true | PASS
+[2025-10-06 16:32:34] Function=isValidEmail | username=test@examplecom | password=N/A | email=N/A | expected=false | result=false | PASS
