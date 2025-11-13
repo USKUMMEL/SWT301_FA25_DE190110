@@ -1,6 +1,0 @@
-firstName,lastName,email,gender,mobile,hobby,address,expectedResult
-Hoa,Dong,hoa@example.com,Male,0987654321,Reading,"Hanoi, Vietnam",success
-Nam,Nguyen,nam-at-example.com,Male,0987654321,Reading,"HCM City",error
-EmptyFirst,,empty@example.com,Male,0987654321,Reading,"HN",error
-Lan,Tran,lan@example.com,,0987654321,Reading,"Da Nang",error
-Minh,Pham,minh@example.com,Male,,Reading,"Hanoi",error
